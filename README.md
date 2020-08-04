@@ -12,6 +12,7 @@ Some differences with standard BNF grammar:
 - `/* C-style comments */`
 - Unquoted unicode escape sequences like `#xFEFF`
 - Production names can have a parenthesized context like `s-indent(<n)`
+- Add operators `⇒` and `×`
 
 TODO new screenshot
 

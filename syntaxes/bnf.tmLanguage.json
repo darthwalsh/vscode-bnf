@@ -109,7 +109,7 @@
 		"operators": {
 			"patterns": [
 				{
-					"match": "[?+*|()\\[\\]{},.\\-!]",
+					"match": "[?+*|()\\[\\]{},.\\-!×⇒]",
 					"name": "keyword.control.bnf"
 				},
 				{
