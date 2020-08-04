@@ -14,6 +14,4 @@ Some differences with standard BNF grammar:
 - Production names can have a parenthesized context like `s-indent(<n)`
 - Add operators `⇒` and `×`
 
-TODO new screenshot
-
 ![Syntax Highlighting](screenshot.png)
