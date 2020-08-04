@@ -32,7 +32,7 @@
 		"rule": {
 			"patterns": [
 				{
-					"match": "([\\w\\-]+)\\s*(::=|=)\\s*(.+)?",
+					"match": "([\\w\\-]+)\\b(?:\\([\\w,<≤\\-]+\\))?\\s*(::=|=)\\s*(.+)?",
 					"captures": {
 						"1": {
 							"name": "entity.name.class.bnf"
@@ -71,7 +71,7 @@
 					"name": "support.variable.bnf"
 				},
 				{
-					"match": "\\b[_a-zA-Z][_a-zA-Z0-9\\-]*\\b",
+					"match": "\\b[_a-zA-Z][_a-zA-Z0-9\\-]*\\b(?:\\([\\w,<≤\\-]+\\))?",
 					"name": "entity.name.class.bnf"
 				}
 			]
@@ -102,7 +102,7 @@
 				},
 				{
 					"match": "#x[0-9A-F]{1,6}\\b",
-					"name": "string"
+					"name": "string.bnf"
 				}
 			]
 		},
