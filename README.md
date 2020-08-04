@@ -10,6 +10,7 @@ Files with the extension `.bnf` will automatically be highlighting.
 Some differences with standard BNF grammar:
 
 - `/* C-style comments */`
+- Unquoted unicode escape sequences like `#xFEFF`
 
 TODO new screenshot
 
