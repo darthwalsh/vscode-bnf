@@ -11,18 +11,8 @@
 			"patterns": [
 				{
 					"name": "comment.block.bnf",
-					"begin": "\\(\\*",
-					"end": "\\*\\)",
-					"patterns": [
-						{
-							"include": "#comment-tags"
-						}
-					]
-				},
-				{
-					"name": "comment.line.bnf",
-					"begin": "#",
-					"end": "$",
+					"begin": "/\\*",
+					"end": "\\*/",
 					"patterns": [
 						{
 							"include": "#comment-tags"

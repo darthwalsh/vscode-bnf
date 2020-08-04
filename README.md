@@ -7,6 +7,10 @@ This extension adds BNF syntax highlighting to Visual Studio Code.
 
 Files with the extension `.bnf` will automatically be highlighting.
 
-TODO new screeshot
+Some differences with standard BNF grammar:
+
+- `/* C-style comments */`
+
+TODO new screenshot
 
 ![Syntax Highlighting](screenshot.png)
