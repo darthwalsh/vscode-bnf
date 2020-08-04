@@ -1,10 +1,12 @@
 
-# vscode-bnf
-[![Version](https://vsmarketplacebadge.apphb.com/version/Vallentin.vscode-bnf.svg)](https://marketplace.visualstudio.com/items?itemName=Vallentin.vscode-bnf)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/Vallentin.vscode-bnf.svg)](https://marketplace.visualstudio.com/items?itemName=Vallentin.vscode-bnf)
+# vscode-bnf for YAML's BNF flavor
+[![Version](https://vsmarketplacebadge.apphb.com/version/darthwalsh.vscode-bnf.svg)](https://marketplace.visualstudio.com/items?itemName=darthwalsh.vscode-bnf)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/darthwalsh.vscode-bnf.svg)](https://marketplace.visualstudio.com/items?itemName=darthwalsh.vscode-bnf)
 
-This extension adds BNF and EBNF syntax highlighting to Visual Studio Code.
+This extension adds BNF syntax highlighting to Visual Studio Code.
 
-Files with the extension `.bnf` or `.ebnf` will automatically be highlighting.
+Files with the extension `.bnf` will automatically be highlighting.
+
+TODO new screeshot
 
 ![Syntax Highlighting](screenshot.png)

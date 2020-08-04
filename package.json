@@ -1,26 +1,25 @@
 {
 	"name": "vscode-bnf",
-	"displayName": "BNF & EBNF Highlighting",
+	"displayName": "BNF Highlighting",
 	"description": "BNF for Visual Studio Code",
 	"version": "0.0.1",
-	"publisher": "Vallentin",
+	"publisher": "darthwalsh",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Vallentin/vscode-bnf.git"
+		"url": "https://github.com/darthwalsh/vscode-bnf.git"
 	},
-	"homepage": "https://github.com/Vallentin/vscode-bnf",
+	"homepage": "https://github.com/darthwalsh/vscode-bnf",
 	"bugs": {
-		"url": "https://github.com/Vallentin/vscode-bnf/issues"
+		"url": "https://github.com/darthwalsh/vscode-bnf/issues"
 	},
 	"categories": [
 		"Programming Languages"
 	],
 	"keywords": [
 		"bnf",
-		"ebnf",
 		"syntax-highlighting"
 	],
 	"license": "MIT",
@@ -30,12 +29,10 @@
 				"id": "bnf",
 				"aliases": [
 					"BNF",
-					"bnf",
-					"ebnf"
+					"bnf"
 				],
 				"extensions": [
 					".bnf",
-					".ebnf"
 				],
 				"configuration": "./language-configuration.json"
 			}
