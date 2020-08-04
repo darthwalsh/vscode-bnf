@@ -71,7 +71,7 @@
 					"name": "support.variable.bnf"
 				},
 				{
-					"match": "\\b[_a-zA-Z][_a-zA-Z0-9]*\\b",
+					"match": "\\b[_a-zA-Z][_a-zA-Z0-9\\-]*\\b",
 					"name": "entity.name.class.bnf"
 				}
 			]
