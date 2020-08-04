@@ -32,7 +32,7 @@
 					"bnf"
 				],
 				"extensions": [
-					".bnf",
+					".bnf"
 				],
 				"configuration": "./language-configuration.json"
 			}
@@ -44,5 +44,8 @@
 				"path": "./syntaxes/bnf.tmLanguage.json"
 			}
 		]
+	},
+	"devDependencies": {
+		"vsce": "^1.77.0"
 	}
 }
